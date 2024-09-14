@@ -11,7 +11,7 @@ public class Wallet1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("This is your digital wallet");
         System.out.println("Any change to you wallet? Enter 1or2 to select Income or Expend");
-        String input = scanner.nextLine();
+        String input = scanner.nextLine();       //無用?
         int inorout = scanner.nextInt();        //讀取數值
         scanner.nextLine();       //處理換行原因? 看看GIT狀態
         if (inorout == 1) {
@@ -26,4 +26,4 @@ public class Wallet1 {
             Wallet.println("Invalid selection. Please try again.");
         }
     }
-};
+}
